@@ -1,0 +1,15 @@
+<h1>Set the Thanksgiving Table</h1>
+<p>Drag the items to the correct spots on the table!</p>
+<div id="table">
+    <div id="plate-spot" class="droppable" data-item="plate"></div>
+    <div id="fork-spot" class="droppable" data-item="fork"></div>
+    <div id="knife-spot" class="droppable" data-item="knife"></div>
+    <div id="napkin-spot" class="droppable" data-item="napkin"></div>
+</div>
+<div id="items">
+    <div id="plate" class="item" draggable="true"></div>
+    <div id="fork" class="item" draggable="true"></div>
+    <div id="knife" class="item" draggable="true"></div>
+    <div id="napkin" class="item" draggable="true"></div>
+</div>
+<p id="message" style="color: green; font-size: 20px;"></p>
